@@ -6,7 +6,7 @@ end
 
 def batch_badge_maker(attendees)
   
-  attendees.collect {|attendee| badge_maker(name)}
+  attendees.collect {|attendee| badge_maker(attendee)}
 
 end
  
